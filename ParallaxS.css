@@ -1,0 +1,34 @@
+body,html {
+    height: 160%;
+    margin: 0;
+}
+.image{
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.im1{
+    background-image: url('bg4.jpg');
+}
+.im2{
+    background-image: url('bg5.jpg');
+}
+.im3{
+    background-image: url('bg6.jpg');
+}
+.im4{
+    background-image: url('bg4.jpg');
+}
+.text{
+    text-align:center;
+    background-color: rgb(255, 255, 255,0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 8px solid white;
+    border-radius: 50px;
+    padding: 10px;
+}
